@@ -1,21 +1,64 @@
 {
-    "last_updated":"08/14/2026",
-    "items":[
-        {
-            "name":"example",
-            "price":1500,
-            "images":[
-                "./inventory/images/item%20(3).jpeg"
-            ],
-            "description":"example"
-        },
-        {
-            "name":"test",
-            "price":5000,
-            "images":[
-                "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1747253556-screenshot-2025-05-14-at-4-12-07-pm-6824f91d70ae4.png?crop=0.989xw:0.768xh;0.00801xw,0.0785xh&resize=980:*"
-            ],
-            "description":"example"
-        }
-    ]
+   "last_updated": "9/17/2026",
+   "currency":"$",
+   "oldrate":1.5,
+   "items": [
+      {
+         "name": "test normal",
+         "price": 1500,
+         "images": [
+            "./inventory/images/item%20(3).jpeg"
+         ],
+         "features":{
+               "size":["20x8.5cm (1:18 Scale)","20x10 (2.1 Scale)"],
+               "design":"6-grid shaped tray",
+               "battery":"rechargeable lithium battery",
+               "volume":"300ml",
+               "material":"wood"
+         },
+         "colors":[
+            "red",
+            "green",
+            "blue",
+            "aqua",
+            "orange",
+            "white",
+            "transparent"
+         ],
+         "delivery":{
+            "fee":350,
+            "duration":"2-5 working days",
+            "from":"china",
+            "company":"shopping space delivery service"
+         },
+         "description": "example",
+         "limited_stock":true,
+         "return_policy":{
+            "text":"100% free return",
+            "duration":"2 weeks"
+         }
+      },
+      {
+         "name": "test external image",
+         "price": 5000,
+         "images": [
+            "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1747253556-screenshot-2025-05-14-at-4-12-07-pm-6824f91d70ae4.png?crop=0.989xw:0.768xh;0.00801xw,0.0785xh&resize=980:*"
+         ],
+         "description": "example"
+      },
+      {
+         "name": "test no image",
+         "price": 67000,
+         "description": "abc",
+         "images": [
+            "[path:inventory]item%20(a5).jpeg"
+         ]
+      },
+      {
+         "name": "test empty image list",
+         "price": 67000,
+         "description": "abc",
+         "images": []
+      }
+   ]
 }
